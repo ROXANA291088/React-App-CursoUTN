@@ -1,0 +1,24 @@
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.table-responsive {
+ overflow: auto;
+}
+a:hover, a:active {
+    color: blue;
+}
+table.lamp,table.w3-table-all {
+    margin: 16px 0;
+}
+
+.top {
+    position: relative;
+    background-color: brown;
+    height: 68px;
+    padding-top: 20px;
+    line-height: 50px;
+    overflow: hidden;
+    z-index: 1;
+}

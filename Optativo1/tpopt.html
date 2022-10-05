@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="estiloseg.css">
+   <script src="funcion.js"></script>
+</head>
+<style>FORMULARIO</style>
+<body>
+    <title>Contiza tu Seguro </title>
+ <form action="form_registro" onsubmit="registrarse();return false"></form>
+
+    <div cla>
+        <label for="Nombre">Nombre </label>
+        <input name="Nombre " id="nombre"/>
+    </div>
+    <div>
+        <label for="Apellido">Apellido </label>
+        <input name="Apellido" id="Apellido"/>
+    </div>
+    <div>
+        <label for="DNI">DNI</label>
+        <input name="DNI" id="DNI"/>
+    </div>
+    <div>
+        <label for="Telefono">Telefono</label>
+        <input name="Telefono" id="Telefono"/>
+    </div>
+    <div>
+        <label for="Email">Email</label>
+        <input name="Email" id="Email"/>
+    </div>
+    <div>
+        <label>Tipo de Seguro</label>
+        <select name="tipo de seguro" id="tipo de seguro" onchange="getTipoSeguro()">
+            <option>Basico $500</option>
+            <option>Intermedio $1000</option>
+            <option>Premium $1500</option>
+        </select>
+    </div>
+    <h4>Total</h4>
+    
+    <div id="Mensaje"></div>
+    <div>
+        <button type="submit"> Registrarse</button>
+    </div>
+</form>
+
+</body>
+
+
+</html>
